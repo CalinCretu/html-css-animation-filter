@@ -59,8 +59,70 @@
 }
 
 
+.well > .ex-7-img { 
+    transition:  all 0.5s ease 0s;
+}
 
 .ex-7-img:hover {
-
-
+    filter: blur(2px) hue-rotate(90deg);
 }
+
+
+
+.well .ex-8-img {
+    transition:  all 0.5s ease 0s;
+}
+
+.ex-8-img:hover {
+    filter: blur(2px) hue-rotate(90deg);
+    border-radius: 15%;
+}
+
+
+
+.well .ex-9-img {
+    transition:  all 0.5s ease 0s;
+}
+
+.ex-9-img:hover {
+    filter: blur(2px) hue-rotate(90deg);
+    border-radius: 20%;
+    width: 800px;
+}
+
+
+
+.well .ex-10-icon {
+    animation: spin 1s infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+
+
+.well .ex-11-icon:hover {
+    animation: rotate-270 2s infinite;
+}
+
+@keyframes rotate-270 {
+    0% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+
+
+.ex-2-square {}
